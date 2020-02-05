@@ -34,5 +34,5 @@ We have used:
   # Results:
   
   We have achieved,
-  Train accuracy: <b>0.9880304678998912</b>
+  Train accuracy: <b>0.9880304678998912</b><br>
   Test accuracy:  <b>0.9681031557516118</b> 
