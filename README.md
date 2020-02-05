@@ -33,6 +33,6 @@ We have used:
       
   # Results:
   
-  We have achieved,
+  We have achieved,<br>
   Train accuracy: <b>0.9880304678998912</b><br>
   Test accuracy:  <b>0.9681031557516118</b> 
