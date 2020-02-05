@@ -11,25 +11,25 @@ By using the sensors(Gyroscope and accelerometer) in a smartphone, they have cap
  - prefix 't' in those metrics denotes time.
  - suffix 'XYZ' represents 3-axial signals in X , Y, and Z directions.
  
-Y_Labels(Encoded):
+Y_Labels(Encoded):<br>
 In the dataset, Y_labels are represented as numbers from 1 to 6 as their identifiers.
-    WALKING as 1
-    WALKING_UPSTAIRS as 2
-    WALKING_DOWNSTAIRS as 3
-    SITTING as 4
-    STANDING as 5
-    LAYING as 6
+- WALKING as 1
+- WALKING_UPSTAIRS as 2
+- WALKING_DOWNSTAIRS as 3
+- SITTING as 4
+- STANDING as 5
+- LAYING as 6
     
  # Deep Learning Models :
  
- Three models were trained for:
-      - To classify whether it is dynamic or static activity.
-      - Dynamic Activities (Walking, upstairs, downstairs)
-      - Static Activities  (sitting, standing, lying)
-  We have used:
-      - <b> 1d CNN and 1-layer LSTM </b> for type of activity classification.
-      - <b> 1d CNN and 1-layer LSTM </b> for dynamic activities.
-      - <b> 3 (1d CNN + MaxPooling) </b> for static activities.
+Three models were trained for:
+ - To classify whether it is dynamic or static activity.
+ - Dynamic Activities (Walking, upstairs, downstairs)
+ - Static Activities  (sitting, standing, lying)
+We have used:
+ - <b> 1d CNN and 1-layer LSTM </b> for type of activity classification.
+ - <b> 1d CNN and 1-layer LSTM </b> for dynamic activities.
+ - <b> 3 (1d CNN + MaxPooling) </b> for static activities.
       
   # Results:
   
